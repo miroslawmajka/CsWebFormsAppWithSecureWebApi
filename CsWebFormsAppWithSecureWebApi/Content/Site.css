@@ -36,3 +36,14 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+.productTable th {
+    border: 1px solid black !important;
+    padding: 5px;
+    background-color: grey;
+}
+
+.productTable td {
+    border: 1px solid black;
+    padding: 5px;
+}
