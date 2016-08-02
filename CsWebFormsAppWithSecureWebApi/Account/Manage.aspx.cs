@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Owin;
-using CsWebFormsAppWithSecureWebApi.Models;
+using System;
+using System.Web;
 
 namespace CsWebFormsAppWithSecureWebApi.Account
 {
@@ -79,8 +72,7 @@ namespace CsWebFormsAppWithSecureWebApi.Account
                 }
             }
         }
-
-
+        
         private void AddErrors(IdentityResult result)
         {
             foreach (var error in result.Errors)
